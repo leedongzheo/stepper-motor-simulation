@@ -5,15 +5,15 @@
 ![MCU](https://img.shields.io/badge/MCU-STM32-orange.svg)
 ![Framework](https://img.shields.io/badge/Framework-STM32%20HAL-green.svg)
 
-## 📌 About The Project
+## About The Project
 This repository contains the C source code (using STM32 HAL Library) for simulating and controlling a stepper motor. The project demonstrates four different excitation modes, allowing users to interactively switch between them using push buttons. Real-time parameters such as pulse count, revolution count, and step angles are displayed on a 16x2 LCD.
 
-### 🎬 Video Demonstration
+### Video Demonstration
 > [Watch the simulation video on YouTube](https://youtu.be/_Q8YOo881Ik)
 
 ---
 
-## 🚀 Features
+## Features
 * **4 Driving Modes:**
     * **1-Phase On:** One stator electromagnet is energized at a time.
     * **Full Step (2-Phase On):** Two stators are energized simultaneously for higher torque.
@@ -27,7 +27,7 @@ This repository contains the C source code (using STM32 HAL Library) for simulat
 
 ---
 
-## 🛠️ Hardware & Pin Configuration (STM32)
+## Hardware & Pin Configuration (STM32)
 
 ### Stepper Motor Control
 * **PA2, PA3, PA4, PA5:** Motor coil control pins (Output PP).
@@ -44,7 +44,7 @@ This repository contains the C source code (using STM32 HAL Library) for simulat
 
 ---
 
-## 💻 How to Run
+## How to Run
 1.  Open the project in **STM32CubeIDE** or **Keil uVision**.
 2.  Compile and build the project.
 3.  Flash the `.hex` or `.bin` file into your STM32 microcontroller.
