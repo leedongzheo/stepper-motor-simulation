@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"my8\startup_stm32f103xb.o"
+"my8\main.o"
+"my8\stm32f1xx_it.o"
+"my8\stm32f1xx_hal_msp.o"
+"my8\delay.o"
+"my8\lcd_16x2.o"
+"my8\stm32f1xx_hal_gpio_ex.o"
+"my8\stm32f1xx_hal_tim.o"
+"my8\stm32f1xx_hal_tim_ex.o"
+"my8\stm32f1xx_hal.o"
+"my8\stm32f1xx_hal_rcc.o"
+"my8\stm32f1xx_hal_rcc_ex.o"
+"my8\stm32f1xx_hal_gpio.o"
+"my8\stm32f1xx_hal_dma.o"
+"my8\stm32f1xx_hal_cortex.o"
+"my8\stm32f1xx_hal_pwr.o"
+"my8\stm32f1xx_hal_flash.o"
+"my8\stm32f1xx_hal_flash_ex.o"
+"my8\stm32f1xx_hal_exti.o"
+"my8\system_stm32f1xx.o"
+--strict --scatter "My8\My8.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "My8.map" -o My8\My8.axf
